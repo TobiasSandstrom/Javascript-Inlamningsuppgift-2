@@ -1,0 +1,48 @@
+.navbar-container{
+    display: flex;
+    padding: 2rem 2rem;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+  
+}
+
+
+.navbar-container .navlink{
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 1rem;
+      
+}
+
+
+@media (min-width: 700px){
+
+    .navbar-container .navlink{
+
+        font-size: 1.5rem;
+
+    }
+
+    .navbar-container{
+        display: flex;
+        padding: 2rem 4rem;
+        margin-bottom: 5rem;
+      
+    }
+    
+    .navbar-container .linkBox{
+    
+        display: flex;
+        flex: 1;
+        justify-content: center;
+    }
+    .navbar-container .linkBox:first-child > span {
+    
+        margin-right: auto;
+    }
+    .navbar-container .linkBox:last-child > span {
+    
+        margin-left: auto;
+    }
+}
+
