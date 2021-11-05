@@ -3,7 +3,7 @@ import './register.css'
 import { useForm } from 'react-hook-form'
 import {yupResolver} from "@hookform/resolvers/yup"
 import * as yup from "yup"
-// import axios from "axios"
+import axios from "axios"
 
 
 const schema = yup.object().shape({
@@ -18,11 +18,8 @@ const Register = () => {
         resolver: yupResolver(schema),
     });
     
-    
     const SubmitForm = (data) => {
-        console.log(data)
-        // axios.post("https://ecexam-webapi.azurewebsites.net/api/customers", data)
-        
+        axios.post("https://ecexam-webapi.azurewebsites.net/api/customers", data)
     }
 
     return (

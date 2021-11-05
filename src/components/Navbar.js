@@ -17,9 +17,9 @@ const Navbar = () => {
            <div>
                 <header className="navbar-container">
                 
-                        <div className="linkBox"><span><NavLink className="navlink navlink1" to="/">Hem</NavLink></span></div>
+                        <div className="linkBox"><span><NavLink className="navlink" to="/">Hem</NavLink></span></div>
                         <div className="linkBox"><span><NavLink className="navlink" to="/kunder">Kunder</NavLink></span></div>
-                        <div className="linkBox"><span><NavLink className="navlink navlink2" to="/registrera">Registrera ny kund</NavLink></span></div>
+                        <div className="linkBox"><span><NavLink className="navlink" to="/registrera">Registrera ny kund</NavLink></span></div>
 
                 </header>
                 

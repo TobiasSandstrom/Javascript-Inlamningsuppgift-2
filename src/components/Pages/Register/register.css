@@ -6,13 +6,10 @@
 }
 
 .register-container #formen{
-
     width: 65vw;
-
 }
 
 .register-container .form-container #formen{
-
     background-color: #FDFDFD;
     border: 1px solid black;
     padding: 3rem 0;
@@ -20,7 +17,6 @@
 }
 
 .register-container .form-container #formen .register-header{
-
     font-size: 1.1rem;
     margin-bottom: 3rem;
     font-weight: lighter;
@@ -28,19 +24,14 @@
     padding: 0 1rem;
 }
 
-
 .register-container .form-container  #formen .formInput{
-
     width: 80%;
     margin: 0.5rem 0;
     font-size: 0.8rem;
     border: 1px solid black;
-
-
 }
 
 .register-container .form-container #formen .registerBtn{
-
     margin-top: 2rem;
     width: 180px;
     height: 45px;
@@ -48,53 +39,35 @@
     font-size: 0.9rem;
     border: none;
     border-radius: 10px;
-    
 }
 .register-container .form-container #formen .registerBtn i{
-
     margin-left: 0.5rem;
     font-weight: 400;
     font-size: 1.1rem;
-   
 }
 
 .register-container .form-container #formen .error-msg{
-
     color: red;
     margin-bottom: 0.5rem;
     font-size: 0.6rem;
-    
-    
 }
-
-
 
 /* Media queries */
 @media (min-width: 600px){
 
     .register-container .form-container #formen .register-header{
-
         font-size: 1.5rem;
-
     }
 
     .register-container .form-container  #formen .formInput{
-
         font-size: 1.2rem;
     }
 
     .register-container .form-container #formen .registerBtn{
-
         width: 200px;
         height: 50px;
-        
     }
     .register-container .form-container #formen .error-msg{
-
-        
         font-size: 0.8rem;
-        
-        
     }
-
 }
